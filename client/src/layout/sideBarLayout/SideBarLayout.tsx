@@ -20,7 +20,7 @@ const SideBarLayout = () => {
     <div className="flex h-[84vh]">
       {/* Side Menu */}
       <nav
-        className={`bg-gray-800 text-white p-4 rounded-xl flex flex-col transition-all duration-300 ${
+        className={`text-white bg-opacity-70 backdrop-blur-sm p-4 rounded-xl flex flex-col transition-all duration-300 ${
           isCollapsed ? 'w-16' : 'w-64'
         }`}
       >

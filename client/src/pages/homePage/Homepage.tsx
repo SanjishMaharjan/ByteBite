@@ -27,7 +27,7 @@ const Homepage = () => {
         <img
           src={logo}
           alt="logo"
-          className="h-32 w-auto mx-auto mb-2 md:h-42"
+          className="h-32 w-auto mx-auto mb-2 md:h-42 opacity-5"
         />
         <h1 className="text-5xl md:text-7xl font-bold text-gradient from-blue-500 via-indigo-600 to-purple-700 mb-4 md:mb-6 text-center max-w-3xl mx-auto">
           ByteBite
